@@ -1,0 +1,42 @@
+footer.rodape{
+    padding: 20px 60px;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+footer.rodape h2{
+    padding-bottom: 12px;
+}
+footer.rodape .left{
+    width: calc(70% - 12px);
+}
+footer.rodape .left{
+    text-align: justify;
+}
+footer.rodape .left h2{
+    text-align: center;
+}
+footer.rodape .right{
+    width: calc(30% - 12px);
+}
+footer.rodape .right{
+    text-align: right;
+}
+footer.rodape ul, 
+footer.rodape li.menu-item-has-children{
+    color: #808080;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 24px;
+    row-gap: 12px;
+}
+footer.rodape ul ul li{
+    padding-right: 12px;
+}
+footer.rodape ul li{
+    list-style: none;
+}

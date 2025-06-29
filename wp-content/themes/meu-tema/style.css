@@ -1,0 +1,40 @@
+/*
+Theme Name: Meu Tema
+Theme URI: https://meusite.com
+Author: Meu Nome
+Author URI: https://meusite.com
+Description: Um tema WordPress personalizado do zero.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meu-tema
+*/
+
+
+body{
+    margin: 0px;
+}
+body *{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: #808080;
+    text-decoration: none;
+    position: relative;
+}
+a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: auto;
+    bottom: -3px;
+    left: 0px;
+    background-color: #808080;
+    transition: all .3s;
+}
+a:hover:after {
+    width: 100%;
+}
