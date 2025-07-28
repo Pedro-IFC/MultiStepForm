@@ -11,12 +11,5 @@
 </head>
 <body>
     <header class="menu">
-        <div class="titulo">
-            <h1><?= get_bloginfo( 'name' ) ?></h1>
-        </div>
-        <?php wp_nav_menu([
-            'menu' => 'principal',
-            'container' => 'nav',
-        ]) ?>
     </header>
     

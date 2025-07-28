@@ -1,0 +1,123 @@
+<div class="passo-0">
+  <p>0. Identificação</p>
+  <label for="nome">Nome</label>
+  [text* nome id:nome]
+
+  <label for="email">E-mail</label>
+  [email* email id:email]
+
+  <label for="telefone">Telefone</label>
+  [tel* telefone id:telefone]
+</div>
+
+<div class="passo-1">
+  <p>1. Qual é o estágio atual da sua ideia de negócio?</p>
+  [radio estagio-ideia   
+    "Ainda estou desenvolvendo ideias iniciais | 1"
+    "Tenho um conceito definido, mas não validado | 2"
+    "Já validei com alguns potenciais clientes | 3"
+    "Tenho um produto/serviço em operação | 4"
+    "Negócio estabelecido buscando expansão | 5"
+  ]
+</div>
+
+<div class="passo-2">
+  <p>2. Como você avalia seu conhecimento do mercado?</p>
+  [radio conhecimento-mercado  
+    "Estou começando a pesquisar | 1"
+    "Tenho conhecimento básico | 2"
+    "Conheço bem meu nicho | 3"
+    "Profundo conhecimento do setor | 4"
+    "Sou referência no mercado | 5"
+  ]
+</div>
+
+<div class="passo-3">
+  <p>3. Qual é sua experiência com gestão financeira?</p>
+  [radio experiencia-financeira  
+    "Nenhuma experiência prévia | 1"
+    "Noções básicas de finanças | 2"
+    "Gerencio finanças pessoais/pequenos projetos | 3"
+    "Experiência profissional em gestão financeira | 4"
+    "Gestão financeira avançada e planejamento estratégico | 5"
+  ]
+</div>
+
+<div class="passo-4">
+  <p>4. Como está estruturada sua rede de contatos profissionais?</p>
+  [radio rede-contatos  
+    "Começando a construir | 1"
+    "Alguns contatos relevantes | 2"
+    "Rede ativa no setor | 3"
+    "Rede consolidada e influente | 4"
+    "Rede extensa e estratégica | 5"
+  ]
+</div>
+
+<div class="passo-5">
+  <p>5. Qual seu nível de experiência com vendas?</p>
+  [radio experiencia-vendas  
+    "Nenhuma experiência | 1"
+    "Vendas básicas/informais | 2"
+    "Alguma experiência profissional | 3"
+    "Experiência significativa | 4"
+    "Expert em vendas e negociação | 5"
+  ]
+</div>
+
+<div class="passo-6">
+  <p>6. Como você lida com inovação e tecnologia?</p>
+  [radio inovacao-tecnologia  
+    "Tenho dificuldade com novas tecnologias | 1"
+    "Uso básico de tecnologias | 2"
+    "Adapto-me bem a novidades | 3"
+    "Busco ativamente inovações | 4"
+    "Pioneiro em adoção de tecnologias | 5"
+  ]
+</div>
+
+<div class="passo-7">
+  <p>7. Qual sua capacidade de investimento atual?</p>
+  [radio capacidade-investimento  
+    "Sem recursos disponíveis | 1"
+    "Recursos limitados | 2"
+    "Recursos moderados | 3"
+    "Bom capital disponível | 4"
+    "Recursos substanciais | 5"
+  ]
+</div>
+
+<div class="passo-8">
+  <p>8. Como você gerencia equipes?</p>
+  [radio gerenciamento-equipes  
+    "Nunca gerenciei equipes | 1"
+    "Experiência informal/pequenos grupos | 2"
+    "Alguma experiência em liderança | 3"
+    "Líder experiente | 4"
+    "Gestor sênior com histórico comprovado | 5"
+  ]
+</div>
+
+<div class="passo-9">
+  <p>9. Qual seu conhecimento sobre aspectos legais e regulatórios?</p>
+  [radio conhecimento-legal  
+    "Conhecimento muito básico | 1"
+    "Noções gerais | 2"
+    "Bom entendimento | 3"
+    "Conhecimento aprofundado | 4"
+    "Expertise completa | 5"
+  ]
+</div>
+
+<div class="passo-10">
+  <p>10. Como você planeja o crescimento do negócio?</p>
+  [radio planejamento-crescimento  
+    "Ainda não pensei nisso | 1"
+    "Tenho ideias básicas | 2"
+    "Plano inicial estruturado | 3"
+    "Estratégia clara de crescimento | 4"
+    "Plano detalhado com metas e métricas | 5"
+  ]
+</div>
+
+[submit "Enviar"]
